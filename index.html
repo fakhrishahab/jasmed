@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jasmed Test Case</title>
+
+	<link rel="stylesheet" href="./node_modules/angular-material/angular-material.min.css">
+
+
+</head>
+<body ng-app="jasmedApp" layout="column" ng-controller="userController as ul">
+
+	<md-toolbar>
+		<h1>Jasmed Front End Test</h1>
+	</md-toolbar>
+	
+	<div class="container" layout="row" flex> 
+		<md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp" >
+			<md-list>
+				<md-list-item>
+					<md-button>
+						<md-icon md-svg-src="svg/message.svg" class="avatar"></md-icon>
+						Fakhri
+					</md-button>
+				</md-list-item>
+			</md-list>
+		</md-sidenav>	
+
+		<md-content id="content" flex>
+			<md-icon md-svg-src="svg/message.svg" class="avatar"></md-icon>
+			<h2>Fakhri Shahab</h2>
+			<p>
+				Lorem ipsum dolor sit amet
+			</p>
+		</md-content>
+	</div>
+	
+
+	
+	
+	<script src="./node_modules/angular/angular.min.js"></script>
+	<script src="./node_modules/angular-aria/angular-aria.min.js"></script>
+	<script src="./node_modules/angular-animate/angular-animate.min.js"></script>
+	<script src="./node_modules/angular-material/angular-material.min.js"></script>
+	<script src="./script.js"></script>
+	<script src="./userService.js"></script>
+	<script src="./userController.js"></script>
+
+</body>
+</html>
